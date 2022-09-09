@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<div class="header" id="header">
+		<div class="container">
+			<div class="header-flex">
+				<div class="header-logo"></div>
+				<ul class="header-nav">
+					<a href="#header">Home</a href="">
+					<a href="#blog">Blog</a>
+					<a href="#features">Features</a>
+					<a href="#pricing">Pricing</a>
+					<a href="#documentation">Documentation</a>
+				</ul>
+				<div class="header-contacts">
+					<div class="header-contact" id="link-facebook">
+						<svg width="9" height="17" viewBox="0 0 9 17" fill="#B6BAC7" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.65597 17V9.24548H8.22501L8.60969 6.2234H5.65597V4.294C5.65597 3.41904 5.89578 2.82278 7.13417 2.82278L8.71368 2.82208V0.119112C8.44051 0.0822826 7.5029 -1.65981e-08 6.41206 -1.65981e-08C4.13475 -1.65981e-08 2.57564 1.40836 2.57564 3.9947V6.2234H-2.3404e-08V9.24548H2.57564V17H5.65597Z"/>
+                        </svg>
+
+					</div>
+					<div class="header-contact" id="link-telegram" >
+						<svg width="15" height="13" viewBox="0 0 15 13" fill="#B6BAC7" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.04945 8.72806L11.4957 12.5768C12.1172 12.9048 12.5657 12.735 12.7205 12.0249L14.9374 2.03246C15.1644 1.16206 14.5906 0.76729 13.996 1.02547L0.978404 5.82666C0.0898302 6.16756 0.0950105 6.64173 0.816436 6.85301L4.15705 7.85032L11.8909 3.18335C12.256 2.97158 12.5911 3.08543 12.3161 3.31891"/>
+                        </svg>
+
+					</div>
+					<div class="header-contact" id="link-twitter">
+						<svg width="18" height="14" viewBox="0 0 18 14" fill="#B6BAC7" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M17.0328 1.84041C16.4253 2.11761 15.7726 2.30417 15.0877 2.38898C15.7868 1.95807 16.3239 1.27594 16.5767 0.46342C15.9222 0.862259 15.1973 1.15191 14.4257 1.308C13.8081 0.631966 12.9276 0.210602 11.9535 0.210602C10.0832 0.210602 8.56631 1.76886 8.56631 3.69017C8.56631 3.96313 8.59598 4.22867 8.65402 4.48334C5.83853 4.33759 3.3424 2.95159 1.67204 0.847419C1.38053 1.36154 1.2135 1.95887 1.2135 2.59648C1.2135 3.80359 1.81147 4.86853 2.72005 5.49303C2.16541 5.47448 1.64276 5.31812 1.18615 5.05709V5.10081C1.18615 6.7876 2.35476 8.19347 3.90258 8.51347C3.61882 8.59297 3.31957 8.63537 3.01181 8.63537C2.79357 8.63537 2.581 8.61417 2.37462 8.5731C2.80543 9.95591 4.05659 10.9619 5.53864 10.99C4.37931 11.9228 2.91868 12.4793 1.33113 12.4793C1.05768 12.4793 0.788618 12.4634 0.523682 12.4308C2.02249 13.4183 3.80327 13.9944 5.71599 13.9944C11.946 13.9944 15.3531 8.69155 15.3531 4.09365C15.3531 3.94259 15.3498 3.79286 15.3433 3.64313C16.0053 3.15286 16.5798 2.53937 17.0338 1.84107"/>
+                        </svg>
+					</div>
+					<div class="header-contact" id="link-messenger">
+						<svg width="17" height="14" viewBox="0 0 17 14" fill="#B6BAC7" xmlns="http://www.w3.org/2000/svg">
+							<path d="M17.0001 2.10651H16.3472C16.1047 2.10651 15.7619 2.45072 15.7619 2.67109V10.6583C15.7619 10.8789 16.1047 11.1796 16.3472 11.1796H17.0001V13.0755H11.084V11.1796H12.3223V2.78361H12.2616L9.36999 13.0755H7.13129L4.277 2.78361H4.20477V11.1796H5.44303V13.0755H0.48999V11.1796H1.12422C1.38542 11.1796 1.72825 10.8789 1.72825 10.6583V2.67109C1.72825 2.45072 1.38542 2.10651 1.12422 2.10651H0.48999V0.210635H6.68355L8.717 7.65872H8.77295L10.8252 0.210635H17.0001V2.10651Z"/>
+                        </svg>
+
+					</div>
+				</div>
+				<button class="header-button button">Get started</button>
+				<div class="header-burger" id="header-burger">
+					<div class="header-burger_line"></div>
+					<div class="header-burger_line"></div>
+					<div class="header-burger_line"></div>
+				</div>
+				<div class="popup" id="popup">
+					<div class="header-flex">
+						<div class="header-logo"></div>
+						<div class="header-burger">
+					        <div class="header-burger_line header-burger_active"></div>
+					        <div class="header-burger_line header-burger_active"></div>
+					        <div class="header-burger_line header-burger_active"></div>
+						</div>
+					</div>	
+					<ul class="header-burger_nav" id="header-nav">
+						<a href="#header">Home</a href="">
+						<a href="#blog">Blog</a>
+						<a href="#features">Features</a>
+						<a href="#pricing">Pricing</a>
+						<a href="#documentation">Documentation</a>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section>
+		<div class="main">
+			<h2 class="main-title">
+				PLAN YOUR LIFE
+			</h2>
+			<h3 class="main-subtitle">
+				Increase your <span>productivity</span>
+			</h3>
+			<div class="main-descr">
+				Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.
+			</div>
+			    <div class="play"></div>
+				<div class='cloud cloud-1'>
+					<div class='cloud cloud-2'></div>
+				    <div class='cloud cloud-3'></div>
+				</div>
+				<div class='cloud cloud-4'>
+					<div class='cloud cloud-5'></div>
+				    <div class='cloud cloud-6'></div>
+				</div>	
+				<div class='cloud cloud-7'></div>
+				<div class='cloud cloud-8'>
+					<div class='cloud cloud-9'></div>
+				    <div class='cloud cloud-10'></div>
+				    <div class='cloud cloud-11'></div>
+				</div>
+
+		</div>
+	</section>
+	<div class="section">
+		<div class="sponsors">
+			<div class="container">
+				<div class="sponsors-flex">
+					<div class="sponsors-img">
+			        	<img class='img-svg' src="img/sponsors/vector.svg" alt="bitbusket">
+			        </div>
+			        <div class="sponsors-img">
+			        	<img class='img-svg' src="img/sponsors/apple-watch.svg" alt="applewatch">
+			        </div>
+			        <div class="sponsors-img">
+			        	<img class='img-svg' src="img/sponsors/facebook.svg" alt="facebook">
+			        </div>
+			        <div class="sponsors-img">
+			        	<img class='img-svg' src="img/sponsors/atlassian.svg" alt="atlassian">
+			        </div>
+			        <div class="sponsors-img">
+			        	<img class='img-svg' src="img/sponsors/audi.svg" alt="audi">
+			        </div>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="section">
+		<div class="manage" id="pricing">
+			<div class="container">
+				<div class="manage-flex">
+			        <div class="manage-text">
+		              	<h2 class="manage-title">
+		              		DESKTOP AND MOBILE APP
+		              	</h2>
+		              	<h3 class="manage-subtitle">
+		              		Plan <span>and</span> manage
+		              	</h3>
+		              	<div class="manage-descr">
+		              		Brute laoreet efficiendi id his, ea illum nonumes luptatum     pro.Usu atqui laudem an, insolens gubergren similique estcu. Et     velmodus congue vituperata. Solum patrioque no sea.Mea ex     malismollis oporteat. Eum an expetenda consequat.
+		              	</div>
+		              	<div class="manage-buttons">
+		              		<button class="button button-features_1">View video</button><button class="    button button-features_2">See features</button>
+		              	</div>
+		            </div>
+		            <div class="manage-img">
+		               	<div class="manage-img_center">
+		               		<div class="manage-img_left"></div>
+		               	    <div class="manage-img_right"></div>
+		               	</div>
+		            </div>
+		        </div>     
+		    </div>    
+		</div>
+	</div>
+	<div class="section">
+		<div class="about-clouds">
+			<div class="container">
+			<div class="about" id="features">
+				<h2 class="about-title">
+					ABOUT US
+				</h2>
+				<h3 class="about-subtitle">
+					Read about our app
+				</h3>
+				<div class="about-flex">
+					<div class="about-element">
+						<div class="about-element_img">
+							<img src="img/about/home.png" alt="home">
+						</div>
+						<h4 class="about-element_title">
+							Overview
+						</h4>
+						<div class="about-element_subtitle">
+							Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.
+						</div>
+					</div>
+					<div class="about-element_line"></div>
+					<div class="about-element">
+						<div class="about-element_img">
+							<img src="img/about/folder.png" alt="folder">
+						</div>
+						<h4 class="about-element_title">
+							Files
+						</h4>
+						<div class="about-element_subtitle">
+							No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.
+						</div>
+					</div>
+					<div class="about-element_line"></div>
+					<div class="about-element">
+						<div class="about-element_img">
+							<img src="img/about/message.png" alt="message">
+						</div>
+						<h4 class="about-element_title">
+							Meeting chats
+						</h4>
+						<div class="about-element_subtitle">
+							Vim ne tacimates neglegentur. Erat diceret omittam at est.
+						</div>
+					</div>
+					<div class="about-element_line"></div>
+					<div class="about-element">
+						<div class="about-element_img">
+							<img src="img/about/download.png" alt="download">
+						</div>
+						<h4 class="about-element_title">
+							Save events
+						</h4>
+						<div class="about-element_subtitle">
+							Nisl idque mel ea, nominati voluptatum.
+						</div>
+					</div>
+				</div>
+
+				<div class="about-buttons">
+					<button class="button button-about">Read more</button>
+					<div class="about-buttons_text">OR</div>
+					<button class="button">Get started</button>
+				</div>
+			</div>
+		</div>
+		        <div class='cloud cloud-12'>
+		        	<div class="cloud cloud-13"></div>
+		        </div>
+				<div class="cloud cloud-14">
+					<div class="cloud cloud-15"></div>
+					<div class="cloud cloud-16"></div>
+					<div class="cloud cloud-17"></div>
+				</div>
+				<div class="cloud cloud-18">
+					<div class="cloud cloud-19"></div>
+					<div class="cloud cloud-20"></div>
+					<div class="cloud cloud-21"></div>
+				</div>
+		</div>
+	</div>
+	<div class="productivity">  
+		<div class="productivity-left">  
+			<div class="productivity-left_logo"> 
+				<div class="logo-left_elipse">  
+					<img src="img/productivity/Ellipse.png" alt="22">
+				</div>
+				<div class="productivity-left_arrow">
+					<div class="productivity-left_logo2"></div>
+					<div class="productivity-left_logo3"></div>
+					<div class="productivity-left_logo4"></div>
+				</div>
+
+				<div class="productivity-left_points">
+					<div class="productivity-left_point productivity-left_point1"></div>
+					<div class="productivity-left_point productivity-left_point2"></div>
+					<div class="productivity-left_point productivity-left_point3"></div>
+					<div class="productivity-left_point productivity-left_point4"></div>
+					<div class="productivity-left_point productivity-left_point5"></div>
+					<div class="productivity-left_point productivity-left_point6"></div>
+				</div>
+
+			</div>
+			<div class="productivity-left_title">89%</div>
+			<div class="productivity-left_descr">
+				Customers who have increased their productivity
+			</div>
+		</div>
+		<div class="productivity-right">
+			<div class="productivity-right_logo">
+				<div class="productivity-right_logo1"></div>
+				<div class="productivity-right_logo2"></div>
+				<div class="productivity-right_logo3"></div>
+				<div class="productivity-right_logo4"></div>
+			</div>
+			<div class="productivity-right_title">3123</div>
+			<div class="productivity-right_descr">
+				Users who have used our application
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="resources" id="blog">
+			<h2 class="resources-title">OUR RESOURCES</h2>
+			<h3 class="resources-subtitle">Start reading our blog</h3>
+			<div id="resources-slider_left" class="resources-slider_left">
+					<div class="resources-slider_left_arrow"></div>
+				</div>
+			    <div id="resources-slider_right" class="resources-slider_right">
+			    	<div class="resources-slider_right_arrow"></div>
+			    </div>
+			<div class="resources-slider_flex">
+			    <div class="resources-slider">
+			    	<div class="resources-slider_img">
+			    		<div class="resources-slider_img1">
+			    			<div class="resources-slider_img1_after"></div>
+			    		</div>
+			    		<div class="resources-slider_img2"></div>
+			    		<div class="resources-slider_img3"></div>
+			        </div>
+			    	<div class="resources-slider_text">
+			    		<h4 class="resources-slider_title">
+			    		How to start planning
+			    	    </h4>
+			    		<div class="resources-slider_descr">Quidam vocibus eum ne, erat consectetuer     voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret     persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas     tibique pro at, eos ut decore ...
+                        </div>
+			    		<div class="resources-slider_buttons">
+			    			<button class="button">Read now</button>
+			    			<button class="button button-resources">Add to your bookmarks</button>
+			    		    </div>
+			    	</div>
+			    </div>
+
+			        <div class="resources-slider resources-slider_before">
+			    	    <div class="resources-slider_img">
+			    		    <div class="resources-slider_img1">
+			    			    <div class="resources-slider_img1_after"></div>
+			    		    </div>
+			    		    <div class="resources-slider_img2"></div>
+			    		    <div class="resources-slider_img3"></div>
+			    	    </div>
+			    	    <div class="resources-slider_text">
+			    		    <h4 class="resources-slider_title">1How to start planning</h4>
+			    		    <div class="resources-slider_descr">Quidam vocibus eum ne, erat consectetuer     voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret     persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas     tibique pro at, eos ut decore ...
+                        </div>
+			    		<div class="resources-slider_buttons">
+			    			<button class="button">Read now</button>
+			    			<button class="button button-resources">Add to your bookmarks</button>
+			    		    </div>
+			    	    </div>
+			        </div>
+
+			        <div class="resources-slider resources-slider_after">
+			    	    <div class="resources-slider_img">
+			    		    <div class="resources-slider_img1">
+			    			    <div class="resources-slider_img1_after"></div>
+			    		    </div>
+			    		    <div class="resources-slider_img2"></div>
+			    		    <div class="resources-slider_img3"></div>
+			    	    </div>
+			    	    <div class="resources-slider_text">
+			    		    <h4 class="resources-slider_title">2How to start planning</h4>
+			    		    <div class="resources-slider_descr">Quidam vocibus eum ne, erat consectetuer     voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret     persecuti. Natum petentium principes mei ea. Tota everti periculis vis ei, quas     tibique pro at, eos ut decore ...
+                        </div>
+			    		<div class="resources-slider_buttons">
+			    			<button class="button">Read now</button>
+			    			<button class="button button-resources">Add to your bookmarks</button>
+			    		    </div>
+			    	    </div>
+			        </div>
+			</div>
+			<div class="resources-points">
+				<div id="resources-point_1" class="resources-point resources-point_1"></div>
+				<div id="resources-point_2" class="resources-point resources-point_2"></div>
+				<div id="resources-point_3" class="resources-point resources-point_3"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="comments">
+			<div class="comments-flex">
+				<div class="comments-text">
+					<h2 class="comments-title">TESTIMONIALS</h2>
+					<h3 class="comments-subtitle">Customers's quotes</h3>
+					<div class="comments-descr">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an.</div>
+				</div>
+				<div class="comments-slider">
+					<div id="comments-chats" class="comments-chats">
+						<div class="comments-chat comments-chat_1">
+							Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.1
+						</div>
+						<div class="comments-chat comments-chat_2">
+							Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.2
+						</div>
+						<div class="comments-chat comments-chat_3">
+							Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.3
+						</div>
+						<div class="comments-chat comments-chat_4">
+							Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.4
+						</div>
+						<div class="comments-chat comments-chat_5">
+							Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.5
+						</div>
+						<div class="comments-chat comments-chat_6">
+							Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.6
+						</div>
+						<div class="comments-chat comments-chat_7">
+							Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.7
+						</div>
+						<div class="comments-chat comments-chat_8">
+							Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.8
+						</div>
+
+					</div>
+					<div class="comments-points">
+						<div id="point1" class="comments-point comments-point_1"></div>
+						<div id="point2" class="comments-point comments-point_2"></div>
+						<div id="point3" class="comments-point comments-point_3"></div>
+						<div id="point4" class="comments-point comments-point_4"></div>
+						<div id="point5" class="comments-point comments-point_5"></div>
+						<div id="point6" class="comments-point comments-point_6"></div>
+						<div id="point7" class="comments-point comments-point_7"></div>
+						<div id="point8" class="comments-point comments-point_8"></div>	
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<div class="section">
+		<div class="container container-mini">
+		    <div class="questions" id="documentation">
+		    	<h2 class="questions-title">Customer help</h2>
+		    	<h3 class="questions-subtitle">Frequently asked questions</h3>
+		    	<div class="questions-items">
+		    		<div class="questions-item">
+		    			<div class="questions-item_arrow_line">
+		    				<div class="questions-item_arrow"></div>
+		    			</div>
+		    			<div class="questions-item_title">Reque insolens in vel?</div>
+		    			<div class="questions-item_descr">
+		    				<div class="questions-item_descr_text">
+		    					Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+		    				</div>
+		    				<button class="button button-questions">Go to documentation</button>
+		    			</div>
+		    		</div>
+		    		<div class="questions-item">
+		    			<div class="questions-item_arrow_line">
+		    				<div class="questions-item_arrow"></div>
+		    			</div>
+		    			<div class="questions-item_title">Vis rebum error graecis ea, id sit postea accusamus?</div>
+		    			<div class="questions-item_descr">
+		    				<div class="questions-item_descr_text">
+		    					Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+		    				</div>
+		    				<button class="button button-questions">Go to documentation</button>
+		    			</div>
+		    		</div>
+		    		<div class="questions-item">
+		    			<div class="questions-item_arrow_line">
+		    				<div class="questions-item_arrow"></div>
+		    			</div>
+		    			<div class="questions-item_title">Lorem repudiandae ne nec?</div>
+		    			<div class="questions-item_descr">
+		    				<div class="questions-item_descr_text">
+		    					Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+		    				</div>
+		    				<button class="button button-questions">Go to documentation</button>
+		    			</div>
+		    		</div>
+		    		<div class="questions-item">
+		    			<div class="questions-item_arrow_line">
+		    				<div class="questions-item_arrow"></div>
+		    			</div>
+		    			<div class="questions-item_title">Ad dicit numquam vel. Et eos iudico feugait percipitur?</div>
+		    			<div class="questions-item_descr">
+		    				<div class="questions-item_descr_text">
+		    					Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+		    				</div>
+		    				<button class="button button-questions">Go to documentation</button>
+		    			</div>
+		    		</div>
+		    		<div class="questions-item">
+		    			<div class="questions-item_arrow_line">
+		    				<div class="questions-item_arrow"></div>
+		    			</div>
+		    			<div class="questions-item_title">Sea no dico percipitur. Fierent constituam definitiones id eum?</div>
+		    			<div class="questions-item_descr">
+		    				<div class="questions-item_descr_text">
+		    					Quidam vocibus eum ne, erat consectetuer voluptatibus ut nam. Eu usu vidit tractatos, vero tractatos ius an, in mel diceret persecuti.
+		    				</div>
+		    				<button class="button button-questions">Go to documentation</button>
+		    			</div>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>    
+	</div>
+
+	<div class="section">
+		<div class="started">
+			<div class="container container-mini">
+				<h2 class="started-title">
+					PLAN YOUR LIFE
+				</h2>
+				<h3 class="started-subtitle">
+					Get <span>started</span> now
+				</h3>
+				<div class="started-descr">
+					Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atquilaudem an, insolens gubergren similique est cu. Et vel modus conguevituperata.
+				</div>
+				<div class="started-buttons">
+					<button class="button button-started">View pricing</button><button class="button button-started2">Read documentation</button>
+				</div>
+				<div class="cloud cloud-started1">
+					<div class="cloud cloud-started2"></div>
+					<div class="cloud cloud-started3"></div>
+				</div>
+				<div class="cloud cloud-started4">
+					<div class="cloud cloud-started5"></div>
+				</div>
+				<div class="cloud cloud-started6">
+					<div class="cloud cloud-started7"></div>
+					<div class="cloud cloud-started8"></div>
+					<div class="cloud cloud-started9"></div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<div class="section">
+		<div class="container">
+			<div class="login">
+				<div class="login-text">
+					<h3 class="login-title">
+						Sign up for newsletter
+					</h3>
+					<div class="login-descr">
+						Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu, homero alterum.
+					</div>
+				</div>
+				<div class="login-buttons">
+					<button class="button button-login1">
+						Email address
+					</button>
+					<button class="button button-login2">
+						Save me
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="header-flex">
+				<div class="header-logo"></div>
+				<ul class="header-nav">
+					<a href="#header">Home</a href="">
+					<a href="#blog">Blog</a>
+					<a href="#features">Features</a>
+					<a href="#pricing">Pricing</a>
+					<a href="#documentation">Documentation</a>
+				</ul>
+				<div class="header-contacts">
+					<div class="header-contact" id="link-facebook2">
+						<svg width="9" height="17" viewBox="0 0 9 17" fill="#B6BAC7" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5.65597 17V9.24548H8.22501L8.60969 6.2234H5.65597V4.294C5.65597 3.41904 5.89578 2.82278 7.13417 2.82278L8.71368 2.82208V0.119112C8.44051 0.0822826 7.5029 -1.65981e-08 6.41206 -1.65981e-08C4.13475 -1.65981e-08 2.57564 1.40836 2.57564 3.9947V6.2234H-2.3404e-08V9.24548H2.57564V17H5.65597Z"/>
+                        </svg>
+					</div>
+					<div class="header-contact" id="link-telegram2">
+						<svg width="15" height="13" viewBox="0 0 15 13" fill="#B6BAC7" xmlns="http://www.w3.org/2000/svg">
+							<path d="M6.04945 8.72806L11.4957 12.5768C12.1172 12.9048 12.5657 12.735 12.7205 12.0249L14.9374 2.03246C15.1644 1.16206 14.5906 0.76729 13.996 1.02547L0.978404 5.82666C0.0898302 6.16756 0.0950105 6.64173 0.816436 6.85301L4.15705 7.85032L11.8909 3.18335C12.256 2.97158 12.5911 3.08543 12.3161 3.31891"/>
+                        </svg>
+					</div>
+					<div class="header-contact" id="link-twitter2">
+						<svg width="18" height="14" viewBox="0 0 18 14" fill="#B6BAC7" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M17.0328 1.84041C16.4253 2.11761 15.7726 2.30417 15.0877 2.38898C15.7868 1.95807 16.3239 1.27594 16.5767 0.46342C15.9222 0.862259 15.1973 1.15191 14.4257 1.308C13.8081 0.631966 12.9276 0.210602 11.9535 0.210602C10.0832 0.210602 8.56631 1.76886 8.56631 3.69017C8.56631 3.96313 8.59598 4.22867 8.65402 4.48334C5.83853 4.33759 3.3424 2.95159 1.67204 0.847419C1.38053 1.36154 1.2135 1.95887 1.2135 2.59648C1.2135 3.80359 1.81147 4.86853 2.72005 5.49303C2.16541 5.47448 1.64276 5.31812 1.18615 5.05709V5.10081C1.18615 6.7876 2.35476 8.19347 3.90258 8.51347C3.61882 8.59297 3.31957 8.63537 3.01181 8.63537C2.79357 8.63537 2.581 8.61417 2.37462 8.5731C2.80543 9.95591 4.05659 10.9619 5.53864 10.99C4.37931 11.9228 2.91868 12.4793 1.33113 12.4793C1.05768 12.4793 0.788618 12.4634 0.523682 12.4308C2.02249 13.4183 3.80327 13.9944 5.71599 13.9944C11.946 13.9944 15.3531 8.69155 15.3531 4.09365C15.3531 3.94259 15.3498 3.79286 15.3433 3.64313C16.0053 3.15286 16.5798 2.53937 17.0338 1.84107"/>
+                        </svg>
+
+					</div>
+					<div class="header-contact" id="link-messenger2">
+						<svg width="17" height="14" viewBox="0 0 17 14" fill="#B6BAC7" xmlns="http://www.w3.org/2000/svg">
+							<path d="M17.0001 2.10651H16.3472C16.1047 2.10651 15.7619 2.45072 15.7619 2.67109V10.6583C15.7619 10.8789 16.1047 11.1796 16.3472 11.1796H17.0001V13.0755H11.084V11.1796H12.3223V2.78361H12.2616L9.36999 13.0755H7.13129L4.277 2.78361H4.20477V11.1796H5.44303V13.0755H0.48999V11.1796H1.12422C1.38542 11.1796 1.72825 10.8789 1.72825 10.6583V2.67109C1.72825 2.45072 1.38542 2.10651 1.12422 2.10651H0.48999V0.210635H6.68355L8.717 7.65872H8.77295L10.8252 0.210635H17.0001V2.10651Z"/>
+                        </svg>
+					</div>
+				</div>
+				<button class="header-button button">Get started</button>
+				<div class="header-burger" id="header-burger">
+					<div class="header-burger_line"></div>
+					<div class="header-burger_line"></div>
+					<div class="header-burger_line"></div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+	<script src="js/comments-slider.js"></script>
+	<script src="js/resources-slider.js"></script>
+	<script src="js/questions.js"></script>
+	<script src="js/links.js"></script>
+	<script src="js/burger.js"></script>
+
+
+</body>
+</html>

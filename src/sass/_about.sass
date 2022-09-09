@@ -1,0 +1,95 @@
+.about
+ padding-top: 173px
+ padding-bottom: 171px
+ &-clouds
+  position: relative
+ &-title
+  text-align: center
+  font-family: Roboto
+  font-weight: 500
+  font-size: 10px
+  color:$main-color
+  margin-bottom: 20px
+ &-subtitle
+  text-align: center
+  font-weight: 500
+  font-size: 24px
+  color:$main-color
+  margin-bottom: 92px
+ &-flex
+  display: flex
+  justify-content: space-around
+  margin-bottom: 92px
+ &-element
+  flex-basis: 25%
+  text-align: center
+  &_line
+   width: 28px
+   height: 2px  
+   border: 1px solid #DAE4FE
+   transform: translateY(110px)
+  &_img
+   margin-bottom: 59px
+   position: relative
+   text-align: center  
+   &::after
+    content: ''
+    position: absolute
+    top: -22px
+    left: calc(50% - 35px)
+    width: 69px
+    height: 69px
+    background-color: #F1F5FF
+    border-radius:50%
+    z-index: -1
+  &_title
+   font-weight: 700
+   font-size: 14px
+   color: #4074F8
+   margin-bottom: 25px
+  &_subtitle
+   font-weight: 500
+   font-size: 11px
+   color: #ADB3CB
+   line-height: 19.5px
+   width: 45%
+   margin: auto
+  &_after
+   position: relative
+   &::after
+    content: ''
+    position: absolute
+    top:100px
+    left:0
+    width: 28px
+    height: 1px
+    background-color: #DAE4FE
+ &-buttons
+  display: flex
+  justify-content: center
+  align-items: center
+  &_text
+   position: relative
+   margin-right: 48px
+   margin-left: 48px
+   font-weight: 500
+   font-size: 11px
+   &::before
+    position: absolute
+    content: ''
+    top:8px
+    left:-30px	
+    width: 15px
+    height: 1px
+    background-color: #DAE4FE
+   &::after
+    position: absolute
+    content: ''
+    top:8px
+    left:31px
+    width: 15px
+    height: 1px
+    background-color: #DAE4FE
+
+
+
